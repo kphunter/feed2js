@@ -90,6 +90,9 @@ $desc = (isset($_GET['desc'])) ? $_GET['desc'] : 0;
 // flag to show author of items, values: no/yes (default=no)
 $auth = (isset($_GET['au'])) ? 'y' : 'n';
 
+// flag to remove link to items, values: n(o)/y(es) (default=yes)
+$link = (isset($_GET['link'])) ? $_GET['link'] : 'y';
+
 // flag to show date of items, values: no/yes (default=no)
 $date = (isset($_GET['date'])) ? $_GET['date'] : 'n';
 
