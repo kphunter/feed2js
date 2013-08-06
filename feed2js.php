@@ -134,7 +134,7 @@ if ($html == 'a') {
 }
 
 // optional parameter to use different class for the CSS container
-$rss_box_id = (isset($_GET['css'])) ? '-' . $_GET['css'] : '';
+$rss_box_id = (isset($_GET['css'])) ? ' ' . $_GET['css'] : '';
 
 // optional parameter to use different class for the CSS container
 $play_podcast = (isset($_GET['pc'])) ? $_GET['pc'] : 'n';
